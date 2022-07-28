@@ -1,14 +1,7 @@
-// Part of the Carbon Language project, under the Apache License v2.0 with LLVM
-// Exceptions. See /LICENSE for license information.
-// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
-//
-// RUN: %{explorer} %s 2>&1 | \
-// RUN:   %{FileCheck} --match-full-lines --allow-unused-prefixes=false %s
-// RUN: %{explorer} --parser_debug --trace_file=- %s 2>&1 | \
-// RUN:   %{FileCheck} --match-full-lines --allow-unused-prefixes %s
-// AUTOUPDATE: %{explorer} %s
-// CHECK: Hello world!
-// CHECK: result: 0
+// CHECK: result: 34
+//This is a basic meuron with 3 int inputs
+//Associated tutorial by Sentdex:https://www.youtube.com/watch?v=Wo5dMEP_BbI
+
 
 package ExplorerTest api;
 
